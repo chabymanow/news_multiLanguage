@@ -188,7 +188,7 @@
                             <div class="video_screen">
                                 <div class="myVideos" style="width:100%">
                                     <div class="embed-responsive embed-responsive-16by9 embed-responsive-item">
-                                        {!! $bigVideo->embed_code !!}
+                                        <iframe width="306" height="200" src={!! $bigVideo->embed_code !!} frameborder="0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
